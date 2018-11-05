@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:hint="Food Name"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="34dp"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/edtDescription"
+            android:hint="Description"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="24sp"
+            android:inputType="textMultiLine"
+            />
+
+        <EditText
+            android:id="@+id/edtPrice"
+            android:hint="Price"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="34dp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/edtDiscount"
+            android:hint="Discount"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="34dp"
+            android:inputType="number"
+            />
+
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:layout_width="0dp"
+
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_margin="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Select"
+                android:textColor="@android:color/white"
+                android:layout_alignParentLeft="true"
+                />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="0dp"
+
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_margin="8dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:text="Upload"
+                android:textColor="@android:color/white"
+                android:layout_alignParentLeft="true"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

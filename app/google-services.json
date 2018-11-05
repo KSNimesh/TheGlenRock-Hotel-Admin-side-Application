@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "348226127504",
+    "firebase_url": "https://macro-entity-216605.firebaseio.com",
+    "project_id": "macro-entity-216605",
+    "storage_bucket": "macro-entity-216605.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348226127504:android:c57c9eb50a94858e",
+        "android_client_info": {
+          "package_name": "com.example.ksnimesh.glenrock_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348226127504-nhsmjf3otcbl1gku0qsp9oddskecb3hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ksnimesh.glenrock_admin",
+            "certificate_hash": "25326c5eb4e7140ebf4f2aa27da179a234bb947f"
+          }
+        },
+        {
+          "client_id": "348226127504-02bv8e8ls13lcc6593c09kvjjuidktgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdu-4_xdk679fG9QmxofssyBj9VFAcMmg"
+        },
+        {
+          "current_key": "AIzaSyCeoBDbWMTotUGBvXq4fQZF1_MUJ-kWxdI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348226127504-02bv8e8ls13lcc6593c09kvjjuidktgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348226127504:android:8b5b963a1de9a858",
+        "android_client_info": {
+          "package_name": "com.example.ksnimesh.theglenrock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348226127504-5vf45tj7eq17k4agcank03f0u7qij332.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ksnimesh.theglenrock",
+            "certificate_hash": "25326c5eb4e7140ebf4f2aa27da179a234bb947f"
+          }
+        },
+        {
+          "client_id": "348226127504-02bv8e8ls13lcc6593c09kvjjuidktgb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdu-4_xdk679fG9QmxofssyBj9VFAcMmg"
+        },
+        {
+          "current_key": "AIzaSyCeoBDbWMTotUGBvXq4fQZF1_MUJ-kWxdI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348226127504-02bv8e8ls13lcc6593c09kvjjuidktgb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
