@@ -306,9 +306,14 @@ public class Home extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId( );
 
-//        if (id == R.id.nav_camera) {
-//            // Handle the camera action
-//        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_order) {
+
+            Intent order= new Intent( Home.this,OrderStatus.class );
+            startActivity( order );
+
+            // Handle the camera action
+        }
+        //else if (id == R.id.nav_gallery) {
 //
 //        } else if (id == R.id.nav_slideshow) {
 //
